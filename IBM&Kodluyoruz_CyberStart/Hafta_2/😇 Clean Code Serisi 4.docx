@@ -1,0 +1,81 @@
+# Temiz Kod Yazma 4: Tek Sorumluluk İlkesi (Single-responsibility principle)
+
+Bir kod parçasının temiz ve anlaşılır olmasının birçok yolu vardır, ancak belki de en önemli prensiplerden biri Tek Sorumluluk İlkesidir (Single Responsibility Principle - SRP).
+
+Tek Sorumluluk İlkesi, genellikle Robert C. Martin (Uncle Bob) tarafından popülerleştirilmiş ve SOLID prensiplerinin ilkini oluşturan bir yazılım geliştirme prensibidir. Bu ilke, bir sınıfın veya fonksiyonun yalnızca tek bir sorumluluğu olması gerektiğini belirtir. Yani, bir sınıf veya fonksiyon sadece tek bir işlemi gerçekleştirmeli ve bu işlemi en iyi şekilde yapmalıdır.
+
+C dilinde bir örnek ile bu prensibi anlamaya çalışalım. Örneğin, bir kullanıcının yaptığı işlemleri log kaydına almayı ve ayrıca bu işlemler sonucunda elde edilen toplam miktarı hesaplamayı düşünelim. Bu işlemler, ilk bakışta aynı fonksiyonda yapılabilir gibi görünebilir. Ancak Tek Sorumluluk İlkesini dikkate alırsak, her bir işlemi ayrı bir fonksiyon olarak tasarlamak daha uygundur.
+
+Uygun olmayan hali:
+
+```c
+
+#include<stdio.h>
+
+// Toplama işlemi ve log kaydı işlemlerini gerçekleştiren fonksiyon
+
+void toplamaVeLogKaydi(int sayi1, int sayi2) {
+
+    int sonuc = sayi1 + sayi2;
+
+    printf("%d + %d = %d işlemi yapıldı.\n", sayi1, sayi2, sonuc);
+
+}
+
+int main() {
+
+    int sayi1 = 5, sayi2 = 7;
+
+    toplamaVeLogKaydi(sayi1, sayi2);
+
+    return 0;
+
+}
+
+```
+
+Uygun olan hali:
+
+```C
+
+#include<stdio.h>
+
+// Toplama işlemi fonksiyonu
+
+int toplama(int sayi1, int sayi2) {
+
+    return sayi1 + sayi2;
+
+}
+
+// Log kaydı fonksiyonu
+
+void logKaydi(int sayi1, int sayi2, int sonuc) {
+
+    printf("%d + %d = %d işlemi yapıldı.\n", sayi1, sayi2, sonuc);
+
+}
+
+int main() {
+
+    int sayi1 = 5, sayi2 = 7;
+
+    int sonuc = toplama(sayi1, sayi2);
+
+    logKaydi(sayi1, sayi2, sonuc);
+
+    return 0;
+
+}
+
+```
+
+Bu örnekte toplama fonksiyonu, sadece toplama işleminden sorumludur ve logKaydi fonksiyonu ise sadece log kaydı oluşturmaktan sorumludur. Bu şekilde her bir fonksiyon kendi sorumluluğunu en iyi şekilde yerine getirir.
+
+Tek Sorumluluk İlkesini uygulamak, kodun anlaşılırlığını ve bakımını kolaylaştırır. Ayrıca, kodda bir değişiklik yapılması gerektiğinde, bu değişikliğin etkisi minimize olur çünkü her fonksiyon veya sınıf yalnızca belirli bir işlevi yerine getirir. Bu prensip, kodun test edilebilirliğini de artırır çünkü her bir işlev ayrı ayrı test edilebilir.
+
+Unutmayın, temiz kod yazma amacımız sadece makinelere değil, aynı zamanda insanlara da kod yazmaktır. İyi kod yazma becerisi, zamanla ve uygulama ile geliştirilir.
+
+Temiz kod hakkında daha fazla öğrenmek isterseniz, Robert C. Martin'in "Clean Code: A Handbook of Agile Software Craftsmanship" kitabını okumanızı tavsiye ederim.
+
+Temiz kodlama yolunda hepimize başarılar!

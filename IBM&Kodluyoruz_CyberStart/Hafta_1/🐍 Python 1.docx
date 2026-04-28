@@ -1,0 +1,42 @@
+# Programlama Nedir - Döngüler [1 - 23]
+
+Buradaki YouTube oynatma listesini bitirmen gerekiyor. Bu sayede python programlama dilini temel seviyede öğreneceksin. Programlama geçmişin varsa videoları tekrar yapmak için hızlıca ilerletebilirsin. 👉🏻
+
+- https://www.youtube.com/playlist?list=PL53hPTfoALoDdXd-VMDQEmKyiM5KamKDE
+
+**İşte senin için  Pyhton ile ilgili ücretsiz ek kaynaklar ve ders notları:**
+
+## 🚀 Ders Notları: 
+
+**Colab:** https://colab.research.google.com/drive/1C3K8OIMHgdex8568035XgwY5bDDbk0nn?usp=sharing
+
+## 🤩 Ücretsiz Kaynaklar:
+
+1. **GitHub Repoları**
+ https://x.com/muffafa/status/1672536062357393410
+
+2. **Ücretsiz Kitap PDF**
+https://x.com/muffafa/status/1668585735631372290
+
+## 💻 Ek Kaynaklar:
+
+- https://ceng.cu.edu.tr/skartal/cen427/kaynaklar.html 
+
+- https://roadmap.sh/cyber-security 
+
+- https://roadmap.sh/python
+
+## 🔗 Makaleler ve Bilgilendirici Yazılar:
+
+-  https://www.w3schools.com/python/python_intro.asp#:~:text=Why%20Python%3F,than%20some%20other%20programming%20languages.
+
+- https://docs.python.org/3/faq/general.html
+
+- https://www.geeksforgeeks.org/python-vs-other-programming-languages/
+
+- https://medium.com/@b.kiran1999kumar/python-vs-other-programming-languages-a-comparison-ccb60e81c053
+
+
+## 🎯 Pratik Yaparak Algoritma Bilgini Geliştirmen İçin Web Siteleri:
+
+https://leetcode.com/
