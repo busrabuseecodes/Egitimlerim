@@ -29,7 +29,7 @@ Her dilin  kendine has isimlendirme gelenekleri vardır. Python toplululğu 'sna
 standartlarını takip eder. Boolean (doğru/yanlış) değerler için ise durum bildiren 'is', 'has','can' gibi ön ekler kullanmak (örn: 'isActive','canExecute') okunabilirliği dramatik şekilde artırır.
 
 ---
-### BÖLÜM 2: Makro Temiz Kod – Tip Sistemleri ve Mimari Tercihler
+## BÖLÜM 2: Makro Temiz Kod – Tip Sistemleri ve Mimari Tercihler
 Yazılımın mimari sevisesinde, dillerin veriyi nasıl işlediği (statik vs. dinamik) ve bu yapıyı nasıl esnettiği (generic) projenin uzun vadeli başarısını ve teknik borç profilini belirler.
 
 **2.1 Statik ve Dinamik Paradigmaların Karşılaştırılması**
@@ -53,3 +53,19 @@ Statik diller(Java,C++,Swift) tip kontrolüni derleme zamanında yaparken, dinam
 
 ## BÖLÜM 3: Teknik Borç ve Endüstriyel Dönüşüm Stratejileri
 Teknik borç, kısa vadeli hız kazanımları için yapılan suboptimal tercihlerin gelecekte ödenmesi gereken maliyetidir. Hatalı isimlendirmeler "Kod Borcu" yaratırken, yanlış tip sistemi tercihleri "Mimari Borç" oluşturur.
+
+**3.1. Büyük Ölçekli Projelerde Tip Sistemi Modernizasyonu**
+Dinamik dillerin yarattığı bakım zorluklarını aşmak için dev şirketler "Kademeli Tipleme" (Gradual Typing) yolunu seçmektedir:
+  - **Stripe (Ruby & Sorbet):** 3.000 mühendise ulaşan Stripe, Ruby monolith yapısını Sorbet ile statik tiplemeye geçirerek 10 yıl daha güvenle korumayı başardı.
+  - **Dropbox (Python & Mypy):** 4 milyon satırlık Python kodunu Mypy ile tiplemeye başlayarak çalışma zamanı hatalarını dramatik şekilde azalttılar ve kodun anlaşılırlığını artırdılar.
+  - **Airbnb (React & AI):** Airbnb, 3.500 test dosyasının Enzyme'den RTL'ye geçişini, yapay zeka ve statik tipleme güvencesiyle 18 aydan 6 haftaya indirdi.
+
+---
+
+### Sonuç ve Öneriler
+Temiz kod yazmak bir disiplin meselesidir. Mikro seviyede anlamlı isimlendirmelerle başlayan bu yolculuk, makro seviyede **doğru tip sistemleri ve mimari kararlarla** desteklenmelidir.
+  1. Küçük fonksiyonlar ve niyetini belli eden isimler kullanın.
+  2. Dinamik bir dilde çalışıyorsanız, proje büyüdükçe mutlaka tipleme araçlarını (TypeScript, Mypy vb.) devreye sokun.
+  3. Gereksiz generic kullanımlardan ve "hibrit" (yarım nesne, yarım veri yapısı) yapılardan kaçının.
+
+**Robert C. Martin'in dediği gibi: "Leave the campground cleaner than you found it." (Kamp alanını bulduğundan daha temiz bırak.)**
