@@ -1,0 +1,23 @@
+İsmi Bilinmese de Endamı Bilinen VCS
+
+Daha öncesinde belki gördüğümüz veya duyduğumuz VCS’i gelin bir yakından inceleyelim 😊
+
+VCS, yazılım geliştirme sürecinde kullanılan bir sistemdir ve kodun değişikliklerini takip ederek kodun tarihçesini ve farklı sürümlerini yönetir. Diyelim ki bir yazılım geliştirme ekibi, bir proje üzerinde çalışıyor. Her ekip üyesi, kendi bilgisayarında projenin kodunu düzenliyor ve değişiklikler yapıyor. Ancak bu değişikliklerin birbirinden bağımsız şekilde yapılması, zamanla problemlere neden olabilir. Bir üyenin yaptığı değişiklikler, diğer üyelerin yaptığı değişiklikleri etkileyebilir veya karşıt olabilir. İşte tam burada VCS devreye girer.
+
+VCS, kodun tarihçesini takip ederek, değişikliklerin hangi tarihte, kim tarafından ve hangi nedenle yapıldığını kaydeder. Bu sayede, değişikliklerin geri alınması veya karşılaştırılması daha kolay olur. Örneğin, bir ekip üyesi projenin bir bölümünde yaptığı değişiklikleri beğenmez ve geri almak istediğinde, VCS sayesinde bu işlem kolayca gerçekleştirilebilir 🔎
+
+Ayrıca, VCS, farklı sürümleri yönetir. Yeni bir değişiklik yapıldığında, VCS, projenin bir sonraki sürümünü oluşturur ve bu sürüme yeni değişiklikleri ekler. Bu sayede, proje farklı sürümleri ile yönetilebilir. Örneğin, bir uygulamanın eski sürümlerindeki hataların düzeltilebilmesi için VCS, bu sürümlerin korunmasını sağlar.
+
+Bir örnek vermek gerekirse, Git adı verilen bir VCS aracı, çok popüler bir araçtır. Git, yazılım geliştirme ekiplerinin, projelerini kaynak kodlarını takip edebilmeleri için kullanılır. Öğrenciler, bir proje üzerinde çalışırken, Git gibi bir VCS aracını kullanarak, projelerinin farklı sürümlerini ve değişikliklerini takip edebilirler. Böylece, projelerinin daha iyi yönetilmesine yardımcı olabilirler 🚀
+
+Örnekleri başlıklar halinde toplayacak olursak:
+
+**Git:** Git, özellikle açık kaynaklı yazılım projelerinde sıklıkla kullanılan bir VCS aracıdır. Projelerin kaynak kodlarının takip edilmesine ve değişikliklerin yönetilmesine yardımcı olur.
+
+**SVN: SVN (Subversion)**, bir diğer açık kaynaklı VCS aracıdır. Projelerin tarihçesini yönetir ve farklı sürümleri saklayarak geri dönüşümlü işlemler yapılmasına imkan tanır.
+
+**Mercurial:** Mercurial, dağıtık bir VCS aracıdır. Projelerin kaynak kodlarını yönetmek ve farklı sürümlerini saklamak için kullanılır.
+
+…
+
+Biz bu örneklerden daha öncesinde bahsettiğimiz Git üzerinden ilerleyeceğiz. Sizler de gelecekte ihtiyacınıza göre farklı sistemler kullanmak isteyebilirsiniz.

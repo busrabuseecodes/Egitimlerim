@@ -1,0 +1,20 @@
+Sürekli duyuyorum, nedir bu kaynak kod 🤔
+
+Kaynak kod, bir programın yazılım dilindeki orijinal kodudur. Biz yazılım geliştiricileri, bu kaynak kodu oluştururuz ve programın makine koduna dönüştürülmesi için kaynak kodunu derleriz veya yorumlarız 🔧 Derleme(compile) işlemi, bir programın kaynak kodunun doğrudan derleyici tarafından makine koduna dönüştürülmesiyle gerçekleştirilir. Derleyici, kaynak kodu okuyarak kodu hızlı bir şekilde makine koduna çevirir. Derleme sonucunda oluşan makine kodu, doğrudan bilgisayar tarafından çalıştırılabilir 💻 Öte yandan, yorumlama işlemi, kaynak kodunun yorumlayıcı tarafından satır satır okunarak çalıştırılmasıdır. Yorumlayıcı, kaynak kodun her satırını yorumlar ve ilgili işlemleri gerçekleştirir. Yorumlama işlemi sonucunda ortaya çıkan çıktı, kullanıcının görebileceği bir sonuçtur 📖
+
+Derleme ve yorumlama arasında bazı farklar bulunmaktadır:
+
+1. Derleme, kaynak kodunun derleyici tarafından doğrudan makine koduna dönüştürülmesiyle gerçekleştirilirken, yorumlama ise kaynak kodunun yorumlayıcı tarafından satır satır okunarak çalıştırılmasıyla gerçekleştirilir.
+
+2. Derlenen program, doğrudan makine kodu olarak çalıştırılabilirken, yorumlanan program ise yorumlayıcı tarafından yorumlanarak çalıştırılır.
+
+3. Derleme işlemi, daha uzun sürebilirken, yorumlama işlemi daha hızlı gerçekleştirilebilir ⏱️
+
+4. Derlenen programlar, farklı platformlarda çalıştırılamazken, yorumlanan programlar, farklı platformlarda yorumlayıcı mevcut olduğu sürece çalıştırılabilir 🌍
+
+Derleme dillerine örnek olarak C, C++, Java, C# ve Go gibi dilleri verebiliriz. Bu diller, kaynak kodunun derleyici tarafından makine koduna dönüştürülerek çalıştırıldığı dillerdir 🖥️
+
+Yorumlama dillerine örnek olarak Python, JavaScript, Ruby, PHP ve Perl gibi dilleri verebiliriz. Bu diller, kaynak kodunun yorumlayıcı tarafından satır satır okunarak çalıştırıldığı dillerdir 📃 Bu dillerin derlenme veya yorumlama yöntemini kullanması, dilin tasarımına ve kullanım amacına bağlıdır.
+
+Her dilin kendine özgü avantajları ve dezavantajları vardır ve tercih edilen yöntem, projenin gereksinimlerine ve hedeflerine bağlı olarak değişebilir 🎯
+

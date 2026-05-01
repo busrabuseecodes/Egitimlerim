@@ -1,0 +1,60 @@
+Akış Diyagramları Nedir?
+
+![alt text](image.png)
+
+Akış diyagramları, bir sistemin işleyişini veya bir algoritmanın adımlarını görsel olarak temsil eden diyagramlardır. Yazılım geliştirmede, bu diyagramlar bir programın nasıl çalıştığını anlamak için oldukça faydalıdır.
+
+Akış diyagramlarında kullanılan temel semboller şunlardır:
+
+![alt text](image-2.png)
+
+**1- Başlangıç/Bitiş Sembolü:**
+Programın başlangıcını veya sonunu gösterir.
+
+Tipik olarak bir oval ile temsil edilir ✅
+
+![alt text](image-1.png)
+
+**2- Giriş/Çıkış Sembolü:** 
+Kullanıcıdan bir veri alınması veya bir verinin ekrana yazdırılması gibi giriş/çıkış işlemlerini gösterir.
+
+Genellikle paralel kenarlarla (elmas şeklinde değil) bir dikdörtgen ile temsil edilir ✅
+![alt text](image-4.png)
+
+**3- Atama - İşlem Sembolü:**
+Bir eylem veya işlemi temsil eder.
+
+Tipik olarak bir dikdörtgen ile temsil edilir ✅
+![alt text](image-5.png)
+
+**4- Denetim (Karar) Sembolü:** Bir kararın veya şartın kontrol edildiği yeri gösterir. Genellikle bir şartın doğru mu yoksa yanlış mı olduğuna karar vermek için kullanılır.
+
+Elmas şeklinde bir sembol ile temsil edilir ✅
+
+![alt text](image-6.png)
+
+**5- Çıkış Sembolü:** Ekrana bir çıktı(output) bastırmak veya bir log kaydetmek için kullanılır.
+
+Eğimli kenarlı bir dikdörtgen şeklinde temsil edilir ✅
+![alt text](image-7.png)
+
+
+**6-Döngü Sembolü:**
+Belirli bir şart sağlanana kadar tekrar tekrar yapılan işlemleri temsil eder.
+
+Altıgen olarak temsil edilir ✅
+![alt text](image-8.png)
+
+**7- Akış Yönü:**
+Akışın hangi yönü takip edeceğini gösteren oklar.
+
+Akışın yönüne bağlı olarak farklı yönlerde olabilir ✅
+![alt text](image-9.png)
+
+**8- Bağlantı Sembolü:**
+Diyagramın farklı bir kısmına geçişi gösterir. Genellikle büyük bir diyagramı daha küçük parçalara bölmek için kullanılır.
+
+Küçük bir daire veya dairesel bir sembol ile temsil edilir ✅
+
+Örnek Algoritma; 
+![alt text](image-10.png)

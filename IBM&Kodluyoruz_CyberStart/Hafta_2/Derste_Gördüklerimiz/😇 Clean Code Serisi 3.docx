@@ -1,0 +1,89 @@
+# Temiz Kod yazma 3: Yeniden Kullanılabilirlik ve DRY Prensibi
+
+Selamlar, "Temiz Kod" yazı serimize devam ediyoruz. İlk iki bölümümüzde "Değişken İsimlendirme" ve "Statik, Dinamik ve Generic Kavramları" hakkında konuştuk. Bu bölümümüzde ise kodun yeniden kullanılabilirliği ve DRY (Don't Repeat Yourself - Kendini Tekrarlama) prensibini ele alacağız.
+
+## Yeniden Kullanılabilirlik Nedir?
+
+Yeniden kullanılabilirlik, yazdığınız kodun farklı yerlerde ve/veya projelerde tekrar tekrar kullanılabilir olmasıdır. Bu, hem kodunuzun miktarını azaltır hem de onu daha kolay okunabilir ve bakımı yapılabilir hale getirir. Ayrıca, bu, bir hata bulunduğunda veya bir özellik değiştirildiğinde, düzeltmeniz veya değiştirmeniz gereken kod miktarını azaltır.
+
+## DRY Prensibi
+
+DRY prensibi, "Kendini Tekrarlama" demektir ve genellikle "Her bilginin tek ve kesin bir temsili olmalıdır" şeklinde ifade edilir. Bu, aynı kod parçacığının tekrar tekrar yazılmasını önler. Bu prensip, özellikle kodun bakımını kolaylaştırır ve hataların oluşmasını azaltır.
+
+Bir örnekle bu prensipleri anlamaya çalışalım:
+
+```
+
+#include<stdio.h>
+
+void toplama() {
+
+    int sayi1 = 5;
+
+    int sayi2 = 7;
+
+    int sonuc = sayi1 + sayi2;
+
+    printf("Toplama sonucu: %d\n", sonuc);
+
+}
+
+void carpma() {
+
+    int sayi1 = 5;
+
+    int sayi2 = 7;
+
+    int sonuc = sayi1 * sayi2;
+
+    printf("Carpma sonucu: %d\n", sonuc);
+
+}
+
+int main() {
+
+    toplama();
+
+    carpma();
+
+    return 0;
+
+}
+
+```
+
+Yukarıdaki kodda, sayi1 ve sayi2 değerleri hem toplam_sayilar hem de carpim_sayilar fonksiyonlarında aynıdır. Bu, DRY prensibine aykırıdır ve aynı zamanda yeniden kullanılabilirlik prensibini de ihlal eder. İdeal olarak, bu iki fonksiyonu tek bir fonksiyonda birleştirmeliyiz:
+
+```
+
+#include<stdio.h>
+
+void hesaplama(int sayi1, int sayi2) {
+
+    int toplam = sayi1 + sayi2;
+
+    int carpim = sayi1 * sayi2;
+
+    printf("Toplama sonucu: %d, Carpma sonucu: %d\n", toplam, carpim);
+
+}
+
+int main() {
+
+    hesaplama(5, 7);
+
+    return 0;
+
+}
+
+```
+
+Bu kod, hem daha kısa hem de daha yeniden kullanılabilir. İki farklı sayı üzerinde hesaplamalar yapmak istediğimizde, sadece hesaplama fonksiyonunu yeni sayılarla çağırabiliriz. Bu, kodumuzu DRY tutar ve onu daha kolay bakım yapılabilir hale getirir.
+
+Yeniden kullanılabilir kod yazmanın ve DRY prensibini uygulamanın birçok yolu vardır. Modüler tasarım, fonksiyonları ve sınıfları kullanma ve koda genel bir bakış açısıyla yaklaşma, bu tekniklerin etkili bir şekilde uygulanmasına yardımcı olur.
+
+Temiz bir kod yazarı olmanın en önemli yollarından biri, yazdığınız kodun sadece şimdiki ihtiyaçları karşılamakla kalmayıp, aynı zamanda gelecekteki ihtiyaçları da karşılayabilecek şekilde tasarlanmış olmasıdır. Bu, kodunuzun yeniden kullanılabilir olması ve DRY prensibini uygulaması ile doğrudan ilişkilidir.
+
+Unutmayın ki iyi bir yazılım geliştirici sadece makinelere değil, aynı zamanda insanlara da kod yazmayı bilir. 
+
+Herkese temiz kodlamalar!
