@@ -1,0 +1,73 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Archives and binaries often not needed in repo
+*.zip
+*.tar.gz
+*.rar
+*.exe
+*.dll
+*.so
+
+# Office and large binary files (track with LFS instead)
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Environment files
+.env.local
+.env.*.local
+
+# Git attributes for LFS (if you use Git LFS)
+.gitattributes.venv/
