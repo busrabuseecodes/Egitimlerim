@@ -38,6 +38,7 @@ Al4Equality platformu, yapay zeka destekli kişiselleştirilmiş eğitim modüll
 |Kadın liderliği konularında eğitimler |                                                  |                                          |
 
 Al4Equality platformu, cinsiyet eşitliği konusunda kapsamlı eğitim içerikleri sunar. Yapay zeka teknolojisi, kullanıcının öğrenme tarzını ve ihtiyaçlarını analiz ederek kişiselleştirilmiş bir eğitim deneyimi sağlar. Kullanıcılar kendi hızlarında ilerleyebilir ve ilgi alanlarına göre özelleştirilmiş içeriklere erişebilirler.
+
 ---
 
 ## Topluluk Desteği ve Kariyer Fırsatları
@@ -69,17 +70,20 @@ Al4Equality platformu, kullanıcıların mentörler ve uzmanlarla eşleştirilme
 - **Oyunlaştırma:** Rozetler, puanlama sistemi ve ilerleme kademeleri
 
 ## Potansiyel Riskler ve Çözüm Stratejileri
--**Dijital Eri_im Sorunu:** Kullanıcıların internet erişimi veya dijital okuryazarlık seviyeleri düşük olabilir.
-**Çözüm:** Mobil uyumlu ve düşük internet bağlant1s1yla çal1şabilen bir versiyon geliştirilmeli, dijital okuryazarl1k eğitimleri sunulmal1.
+- **Dijital Erişim Sorunu:** Kullanıcıların internet erişimi veya dijital okuryazarlık seviyeleri düşük olabilir.
+    
+    **Çözüm:** Mobil uyumlu ve düşük internet bağlant1s1yla çal1şabilen bir versiyon geliştirilmeli, dijital okuryazarl1k eğitimleri sunulmal1.
 
 - **Yapay Zeka Önyargıları:** Yapay zeka destekli sistemler, toplumsal önyargıları barındırabilir ve yanlış yönlendirme yapabilir.
-**Çözüm:** Modelin eğitildiği veri setleri dikkatle seçilmeli ve düzenli denetimlerden geçirilmelidir.
 
-- **Finansal Sürdürülebilirlik:** Platformun uzun vadede sürdürülebilirliği için finansal destek sağlanamamas1.
-**Çözüm:** Sponsor firmalar, STK'lar ve kitle fonlaması modelleri ile finansal destek sağlanmalı.
+    **Çözüm:** Modelin eğitildiği veri setleri dikkatle seçilmeli ve düzenli denetimlerden geçirilmelidir.
+
+- **Finansal Sürdürülebilirlik:** Platformun uzun vadede sürdürülebilirliği için finansal destek sağlanamaması.
+
+    **Çözüm:** Sponsor firmalar, STK'lar ve kitle fonlaması modelleri ile finansal destek sağlanmalı.
 
 - **Gizlilik ve Güvenlik:** Kullanıcıların kişisel verilerinin korunması büyük bir risk oluşturabilir.
-**Çözüm:** GDPR ve KVKK gibi veri koruma yasalar1na uygun güvenlik önlemleri alınmalı.
+    **Çözüm:** GDPR ve KVKK gibi veri koruma yasalar1na uygun güvenlik önlemleri alınmalı.
 
 Al4Equality platformunun başarılı bir şekilde uygulanması için potansiyel risklerin önceden belirlenmesi ve bunlara yönelik çözüm stratejilerinin geliştirilmesi önemlidir. Dijital erişim sorunları, yapay zeka önyargıları, kullanıcı bağlılığı ve finansal sürdürülebilirlik gibi konular dikkatle ele alınmalıdır.
 
@@ -90,4 +94,4 @@ Al4Equality platformunun başarılı bir şekilde uygulanması için potansiyel 
 - **İşbirlikleri ve Paydaşlar:** Üniversiteler, STK'lar, teknoloji şirketleri, kamu kurumları
 - **Finansal Destek:** Hibeler, özel sektor destekleri, kitle fonlama
 
-Al4Equality platformunun geliştirilmesi için çeşitli teknolojik kaynaklar ve işbirlikleri gereklidir. OpenAI, Google Al, Hugging Face gibi yapay zeka ve doğal dil işleme araçları, AWS, Google Cloud veya Microsoft Azure gibi bulut bilişim servisleri ve modern web geliştirme teknolojileri kullanılacaktır. Içerik geliştirme için akademisyenler, eğitimciler ve psikologlar ile iş birliği yapılacak, toplumsal cinsiyet eşitliği alanında çalışan STK'lardan destek alınacaktır. Üniversiteler, araştırma merkezleri, teknoloji şirketleri ve kamu kurumları ile işbirlikleri kurularak projenin etkisi artırılacaktır.
+Al4Equality platformunun geliştirilmesi için çeşitli teknolojik kaynaklar ve  işbirlikleri gereklidir. OpenAI, Google Al, Hugging Face gibi yapay zeka ve doğal dil işleme araçları, AWS, Google Cloud veya Microsoft Azure gibi bulut bilişim servisleri ve modern web geliştirme teknolojileri kullanılacaktır. Içerik geliştirme için akademisyenler, eğitimciler ve psikologlar ile iş birliği yapılacak, toplumsal cinsiyet eşitliği alanında çalışan STK'lardan destek alınacaktır. Üniversiteler, araştırma merkezleri, teknoloji şirketleri ve kamu kurumları ile işbirlikleri kurularak projenin etkisi artırılacaktır.
