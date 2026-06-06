@@ -7,6 +7,8 @@ Dilerseniz aşağıdaki örneğe bağlı kalabilirsiniz.
 ---
 
 ## 📝 Kişilik Anketi Örneği
+<img width="384" height="796" alt="image" src="https://github.com/user-attachments/assets/4a5a50ca-0265-417f-8dd3-488d966e000b" />
+
 ```dart
 Column(
   children: [
@@ -58,9 +60,10 @@ Column(
   ],
 )
 ```
-![alt text](image-8.png)
 
 ## 📊 Sonuç Sayfası Örneği
+<img width="383" height="797" alt="image" src="https://github.com/user-attachments/assets/df7dc29e-7a6b-42c6-aeda-8230138a4fad" />
+
 ```dart
 class ResultPage extends StatelessWidget {
   final String name;
