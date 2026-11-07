@@ -1,16 +1,11 @@
 # 🚀 Eğitimlerim Arşivi
 
-Bu repo, farklı **online eğitim platformlarından** aldığım dersleri tek bir yerde toplar.  
-Her klasör, kendi platformuna ait içerikleri barındırır ve bağımsız olarak incelenebilir.  
-Amaç: **Düzenli, ölçeklenebilir ve kolay erişilebilir bir öğrenme arşivi** oluşturmak.  
+Bu repo, farklı **online eğitim platformlarından** aldığım dersleri tek bir yerde toplar. Her klasör, kendi platformuna ait içerikleri barındırır ve bağımsız olarak incelenebilir.  Amaç: **Düzenli, ölçeklenebilir ve kolay erişilebilir bir öğrenme arşivi** oluşturmak.  
 
 ---
 
 🌟 Amaç
-Bu repo, farklı kaynaklardan aldığım eğitimleri tek bir yerde toplamak ve
-kişisel öğrenme yolculuğumu düzenli bir şekilde arşivlemek için hazırlanmıştır.
-
-Markdown dosyaları GitHub üzerinde kolay görüntülenebilir, PDF ve Word dosyaları ise offline inceleme için uygundur.
+Bu repo, farklı kaynaklardan aldığım eğitimleri tek bir yerde toplamak ve kişisel öğrenme yolculuğumu düzenli bir şekilde arşivlemek için hazırlanmıştır. Markdown dosyaları GitHub üzerinde kolay görüntülenebilir, PDF ve Word dosyaları ise offline inceleme için uygundur.
 
 📌 Not: Eğitimlerde kullanılan teknolojiler arasında PostgreSQL, Python, Flutter ve siber güvenlik araçları bulunmaktadır.
 
